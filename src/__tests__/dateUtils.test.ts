@@ -22,7 +22,6 @@ describe("Date Utils", () => {
     let timeType = DATE_UNIT_TYPES.DAYS;
     let expectedDate = new Date(1999,1,7,1,2,3,4);
     const result = add(randomDate, incrementNumber, timeType);
-    // console.log(`randomDate = ${randomDate} | expectedDate = ${expectedDate}`);
     expect(result).toEqual(expectedDate);
   });
 
